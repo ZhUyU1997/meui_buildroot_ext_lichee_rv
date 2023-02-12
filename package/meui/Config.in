@@ -1,0 +1,9 @@
+config BR2_PACKAGE_MEUI
+        bool "MEUI"
+        default y
+        depends on BR2_PACKAGE_SDL2
+        help
+          This is a comment that explains what MEUI is. The help text
+          should be wrapped.
+
+          https://github.com/ZhUyU1997/MEUI
